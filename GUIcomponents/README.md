@@ -137,13 +137,13 @@ Registeration Number :212221040032
 ```
 
 ## OUTPUT
-```
+
 ![gui 1](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/b1f4cbfb-a4c1-4358-8158-4f0c3c164553)
-```
-```
+
+
 ![Screenshot (242)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/4bde20c5-5ef2-4517-8a2d-ee7ec3b2ddf1)
 
-```
+
 
 ## RESULT
 Thus a Simple Android Application that uses GUI Components with Fonts and Colors using Android Studio is developed and executed successfully.
