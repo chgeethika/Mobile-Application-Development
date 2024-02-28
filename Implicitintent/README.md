@@ -12,11 +12,11 @@ Latest Version Android Studio
 ## ALGORITHM:
 ```
 1.open Android Stdio and then click on File -> New -> New project.
-2.Then type the Application name as “guicomponents″ and click Next. 
+2.Then type the Application name as “implicitintent″ and click Next. 
 3.Then select the Empty Activity and click Next and click finish.
 4.Click on app -> res -> layout -> activity_main.xml.
 5.create a design and write a code.
-5.Click on app -> java -> com.example.guicomponents -> MainActivity.
+5.Click on app -> java -> com.example.implicitintent -> MainActivity.
 6.write the javacode and execue it.
 
 
