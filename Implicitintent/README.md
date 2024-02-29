@@ -89,25 +89,20 @@ activity_main.xml
 MainActivity.java
 
 package com.example.implicitintent;
-
 import static com.example.implicitintent.R.id.editTextText;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.content.Intent;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         EditText editText;
         Button button;
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button=findViewById(R.id.button);
@@ -124,18 +119,17 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-Developed by:
+Developed by:ch.geethika
 Registeration Number :212221040032
 
 ```
 
 ## OUTPUT
-![Screenshot (244)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/db22709b-48f1-49da-bbc8-28f86ffe13a9)
+![Screenshot (259)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/afba11b9-d399-41dc-ace4-acae3f4f88f8)
 
-![Screenshot (245)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/97af88c4-c2b6-4204-a0c6-a71cec4cb8f6)
+![Screenshot (260)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/9c6422bd-f0ad-4625-9a3a-9ee13430a219)
 
-
-
+![Screenshot (253)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/6e170046-b5f7-4a9f-9d69-4c856428c8d0)
 
 ## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the google page using Android Studio is developed and executed successfully.
