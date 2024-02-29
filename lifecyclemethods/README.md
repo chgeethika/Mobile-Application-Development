@@ -38,11 +38,12 @@ activity_main.xml
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="80dp"
-        android:layout_height="39dp"
-        android:text="cricket"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hello World"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,26 +62,38 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+        Toast toast = Toast.makeText(getApplicationContext(), "onCreate Called", Toast.LENGTH_LONG);
+        toast.show();
+   }
     protected void onStart() {
         super.onStart();
-        Toast toast = Toast.makeText(getApplicationContext(), "onStart Called", Toast.LENGTH_LONG);
-        toast.show();
+        Toast toast1 = Toast.makeText(getApplicationContext(), "onStart Called", Toast.LENGTH_LONG);
+        toast1.show();
     }
     protected void onRestart() {
         super.onRestart();
-        Toast toast = Toast.makeText(getApplicationContext(), "onRestart Called", Toast.LENGTH_LONG);
-        toast.show();
+        Toast toast2 = Toast.makeText(getApplicationContext(), "onRestart Called", Toast.LENGTH_LONG);
+        toast2.show();
     }
     protected void onPause() {
         super.onPause();
-        Toast toast = Toast.makeText(getApplicationContext(), "onPause= Called", Toast.LENGTH_LONG);
-        toast.show();
+        Toast toast3 = Toast.makeText(getApplicationContext(), "onPause= Called", Toast.LENGTH_LONG);
+        toast3.show();
+    }
+    protected void onResume() {
+        super.onResume();
+        Toast toast4 = Toast.makeText(getApplicationContext(), "onResume Called", Toast.LENGTH_LONG);
+        toast4.show();
     }
     protected void onStop() {
         super.onStop();
-        Toast toast = Toast.makeText(getApplicationContext(), "onStop Called", Toast.LENGTH_LONG);
-        toast.show();
+        Toast toast5 = Toast.makeText(getApplicationContext(), "onStop Called", Toast.LENGTH_LONG);
+        toast5.show();
+    }
+ protected void onDestroy() {
+        super.onDestroy();
+        Toast toast6 = Toast.makeText(getApplicationContext(), "onDestroy Called", Toast.LENGTH_LONG);
+        toast6.show();
     }
 }
 
@@ -90,11 +103,6 @@ Registeration Number :212221040032
 ```
 
 ## OUTPUT
-![Screenshot (246)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/6d83f278-fb6a-45c2-bd29-1888bf39402f)
-![Screenshot (247)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/49e82699-07f9-41a4-80c6-f31941eba3d2)
-![Screenshot (248)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/c9cb9f2b-237c-42f6-a6d0-c50dd03cc4eb)
-![Screenshot (249)](https://github.com/chgeethika/Mobile-Application-Development/assets/142209368/a1dcaef8-862e-40fc-a56a-3ab3af181b15)
-
 
 
 
